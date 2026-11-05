@@ -123,6 +123,6 @@ SPDX identifier: `LGPL-3.0-or-later`.
 ## Project hosting
 
 - **GitHub:** source, issues and milestones, continuous integration
-  (link: `https://github.com/sokrat-galstyan/kastor-sta`, to be filled in)
+  ([kastor-st/kastor-sta](https://github.com/kastor-st/kastor-sta))
 
 Please report problems and ideas on GitHub.

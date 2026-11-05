@@ -2,7 +2,7 @@
 
 - **Status:** Accepted
 - **Date:** 2026-10-27
-- **Related:** [issue #22](https://github.com/sokrat-galstyan/kastor-sta/issues/22),
+- **Related:** [issue #22](https://github.com/kastor-st/kastor-sta/issues/22),
   [research workflow](../process/research.md)
 
 ## Context

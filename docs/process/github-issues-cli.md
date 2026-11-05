@@ -16,7 +16,7 @@ On Ubuntu 24.04:
 sudo apt install bash git gh jq coreutils
 gh auth login
 ./scripts/github-issues.sh --help
-./scripts/github-issues.sh --repo sokrat-galstyan/kastor-sta issue list
+./scripts/github-issues.sh --repo kastor-st/kastor-sta issue list
 ```
 
 Bash 4.4+, jq 1.6+, GNU date, and GitHub CLI with `gh api --paginate --input`
@@ -39,7 +39,7 @@ still cause a request to fail after preflight. Never put tokens in arguments.
 ## Interactive mode
 
 ```text
-GitHub Issue Manager — Repository: sokrat-galstyan/kastor-sta
+GitHub Issue Manager — Repository: kastor-st/kastor-sta
 1 Create issue    2 Browse / search    3 Hierarchy    4 Update issue
 5 Close issue     6 Reopen issue      7 Milestones   8 Labels
 9 Overview       10 Activity/reports 11 Comment     0 Exit
@@ -333,7 +333,7 @@ Reports never repair resources. Blocking dependencies can be inspected with
 ## Reusing and extending configuration
 
 `--config /path/adapter.json` loads JSON data, never shell code. Kastor's adapter
-is automatically selected only for `sokrat-galstyan/kastor-sta`. Other repositories
+is automatically selected only for `kastor-st/kastor-sta`. Other repositories
 can read/manage generic resources without an adapter; guided forms, structured
 field edits and Epic/dependency policy helpers need one. Start with
 `scripts/github-issues/kastor.json`, adjust forms/labels/requiredness/help/defaults,

@@ -6,7 +6,7 @@ a completed research topic or a production timing analyzer.
 
 Use the [research-note template](../../docs/research/template.md) for findings
 and the [research guide](../../docs/process/research.md) for conventions.
-Related: [issue #22](https://github.com/sokrat-galstyan/kastor-sta/issues/22).
+Related: [issue #22](https://github.com/kastor-st/kastor-sta/issues/22).
 
 ## Files
 

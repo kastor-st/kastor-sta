@@ -474,7 +474,7 @@ init() {
         fail 'Repository must be OWNER/REPO on github.com.'
     BASE="repos/$REPO"
     CONFIG=${O[config]:-}
-    if [[ -z $CONFIG && ${REPO,,} == sokrat-galstyan/kastor-sta ]]; then
+    if [[ -z $CONFIG && ${REPO,,} == kastor-st/kastor-sta ]]; then
         CONFIG="$ROOT/github-issues/kastor.json"
     fi
     if [[ -n $CONFIG ]]; then
