@@ -279,7 +279,7 @@ Sort by number/title/due_on/created/updated; default number ascending. Progress
 is `closed / (open + closed)`, zero when total is zero. GitHub milestone counters
 include PRs; issue-only status excludes PRs. Closing a milestone lists open
 associated items and requires an explicit exception if any remain. It never
-closes issues or Epics automatically. Kastor milestone descriptions are required
+closes issues or Epics automatically. Kastor STA milestone descriptions are required
 on creation and cannot be emptied through this tool.
 
 Colors are six hex digits. Label create/rename checks duplicates; delete requires
@@ -332,7 +332,7 @@ Reports never repair resources. Blocking dependencies can be inspected with
 
 ## Reusing and extending configuration
 
-`--config /path/adapter.json` loads JSON data, never shell code. Kastor's adapter
+`--config /path/adapter.json` loads JSON data, never shell code. Kastor STA's adapter
 is automatically selected only for `kastor-st/kastor-sta`. Other repositories
 can read/manage generic resources without an adapter; guided forms, structured
 field edits and Epic/dependency policy helpers need one. Start with

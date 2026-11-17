@@ -6,13 +6,13 @@ USAGE
         [OPTIONS] [--dry-run | --yes]
 
 REQUIRED OPTIONS
-    --category CATEGORY  task, research, bug, or epic in the Kastor adapter.
+    --category CATEGORY  task, research, bug, or epic in the Kastor STA adapter.
     --title TEXT         Meaningful title; the form adds its title prefix.
     --milestone NUMBER   Open milestone to assign.
     --parent NUMBER|none Parent Epic, or explicitly none for standalone work.
     --field ID=TEXT      Form field; repeat for distinct required field IDs.
 
-FORM FIELDS (KASTOR)
+FORM FIELDS (Kastor STA)
     task, epic   goal, done-when
     research     question, timebox, output; optional: sources
     bug          what, reproduce, version; optional: environment
@@ -32,6 +32,6 @@ EXAMPLE
         --field 'done-when=- [ ] Add a worked example' --dry-run
 
 NOTES
-    Requires a workflow adapter. Kastor uses the bundled adapter; select
+    Requires a workflow adapter. Kastor STA uses the bundled adapter; select
     --config PATH for another repository. Preview first, then replace
     --dry-run with --yes to create the issue.

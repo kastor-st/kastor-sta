@@ -26,7 +26,7 @@ EXAMPLES
 
 GLOBAL OPTIONS
     --repo OWNER/REPO   GitHub.com repository; defaults to Git origin.
-    --config PATH      Workflow adapter; bundled automatically for Kastor.
+    --config PATH      Workflow adapter; bundled automatically for Kastor STA.
     -h, --help         Show help without contacting GitHub.
 
 WRITE SAFETY

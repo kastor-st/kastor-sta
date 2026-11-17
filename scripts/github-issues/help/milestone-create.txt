@@ -6,7 +6,7 @@ USAGE
 
 OPTIONS
     --title TEXT        Required milestone title.
-    --description TEXT  Purpose and scope; required by the Kastor adapter.
+    --description TEXT  Purpose and scope; required by the Kastor STA adapter.
     --due DATE|none     Deadline in YYYY-MM-DD format; default: no deadline.
 
 EXAMPLE

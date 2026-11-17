@@ -1,5 +1,5 @@
 {
-  "$comment": "Kastor issue forms, label policy, and source drift checks.",
+  "$comment": "Kastor STA issue forms, label policy, and source drift checks.",
   "schema": 1,
   "epic_label": "epic",
   "blocked_label": "blocked",
